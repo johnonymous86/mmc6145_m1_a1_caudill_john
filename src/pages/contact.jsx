@@ -16,7 +16,7 @@ function Contact() {
             <h2>LinkedIn</h2>
             <p>Connect with me professionally</p>
             <a 
-              href="https://www.linkedin.com/" 
+              href="https://www.linkedin.com/in/john-caudill-6014" 
               target="_blank" 
               rel="noopener noreferrer"
               className="contact-button"
@@ -45,7 +45,7 @@ function Contact() {
               href="mailto:jcaudill86@gmail.com"
               className="contact-button"
             >
-              jcaudill86@gmail.com
+              Email
             </a>
           </div>
         </div>

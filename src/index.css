@@ -1,12 +1,11 @@
 :root {
-  --primary-color: #2563eb;
+  --primary-color: #3b82f6;
   --secondary-color: #1e40af;
   --text-primary: #1f2937;
   --text-secondary: #6b7280;
   --background: #ffffff;
   --card-background: #f9fafb;
   --border-color: #e5e7eb;
-  --accent: #3b82f6;
 }
 
 * {
@@ -40,27 +39,31 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--text-primary);
-  line-height: 1.2;
-  margin-bottom: 1rem;
-}
-
 h1 {
   font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
 }
 
 h2 {
   font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
 }
 
 h3 {
   font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
 }
 
 p {
   margin-bottom: 1rem;
   color: var(--text-secondary);
+  line-height: 1.8;
 }
 
 a {
